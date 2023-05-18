@@ -2,7 +2,7 @@ import React from "react";
 
 import Navbar from "../components/Navbar/Navbar";
 import Footer from "../components/Footer/Footer";
-import HeroProjects from "../components/H/HeroProjects";
+import HeroProjects from "../components/HeroProjects/HeroProjects";
 
 const Contact = () => {
   return (

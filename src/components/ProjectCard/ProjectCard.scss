@@ -1,0 +1,36 @@
+.project-card {
+    background: #1a1919;
+    padding: 1.2rem 1rem;
+    
+    img {
+      width: 100%;
+    }
+    
+    .project-title {
+      color: #fff;
+      padding: 1rem 0;
+    }
+    
+    .project-btns {
+      display: flex;
+      justify-content: space-between;
+      padding: 0.5rem 0;
+      
+      .btn {
+        padding: 0.5rem 1rem;
+      }
+    }
+    
+    .project-details {
+      p {
+        padding-bottom: 1rem;
+        font-size: 1.1rem;
+      }
+    }
+    
+    @media screen and (max-width: 740px) {
+      max-width: 90%;
+      margin: auto;
+      grid-template-columns: 1fr;
+    }
+  }
