@@ -16,7 +16,8 @@ const Work = () => {
               imgSrc={value.imgSrc}
               title={value.title}
               text={value.text}
-              github={value.GitHub}
+              github={value.github}
+              logos={value.logos}
               url={value.url}
             />
           );
