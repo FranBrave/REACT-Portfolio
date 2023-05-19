@@ -1,21 +1,51 @@
 .project-heading {
-    text-align: center;
-    padding: 4rem 0 2rem 0;
-  }
-  
-  .project-container {
-    max-width: 1140px;
+  text-align: center;
+  padding: 4rem 0 3rem 0;
+}
+
+.project-container {
+  max-width: 1140px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 40px;
+  padding-bottom: 5rem;
+
+  @media screen and (max-width: 740px) {
+    max-width: 90%;
     margin: auto;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 40px;
-    padding-bottom: 5rem;
+    grid-template-columns: 1fr;
   }
-  
-  @media screen and (max-width: 740p) {
-    .project-container {
-      max-width: 90%;
-      margin: auto;
-      grid-template-columns: 1fr;
-    }
+}
+
+.project-card {
+  background-color: #1a1919;
+  padding: 1.3rem 1rem;
+
+  img {
+    width: 100%;
   }
+}
+
+.project-title {
+  color: #fff;
+  padding: 1rem 0;
+}
+
+.project-details {
+  p {
+    padding-bottom: 1rem;
+    font-size: 1rem;
+    text-align: justify;
+  }
+}
+
+.project-btns {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 0;
+
+  .btn {
+    padding: 0.5rem 1rem;
+  }
+}
