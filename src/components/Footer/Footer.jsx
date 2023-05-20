@@ -1,5 +1,6 @@
 import "./Footer.scss";
 import React from "react";
+import { AiFillGithub } from "react-icons/ai";
 import { FaHome, FaMailBulk, FaPhone, FaLinkedin } from "react-icons/fa";
 
 const Footer = () => {
@@ -57,6 +58,11 @@ const Footer = () => {
               rel="noreferrer"
             >
               <FaLinkedin
+                size={30}
+                style={{ color: "#fff", marginRight: "1rem" }}
+              />
+
+              <AiFillGithub
                 size={30}
                 style={{ color: "#fff", marginRight: "1rem" }}
               />
