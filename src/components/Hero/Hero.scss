@@ -55,12 +55,27 @@
     .hero {
       .content {
         h1 {
-          font-size: 3rem;
+          font-size: 2rem;
         }
   
         p {
           font-size: 1.4rem;
         }
       }
+    }
+  }
+
+  .button-container {
+    display: flex;
+    flex-direction: row; // Por defecto, los botones se colocan en fila
+    justify-content: space-between;
+
+    @media screen and (max-width: 600px) { 
+        // Cuando la pantalla es pequeña, cambia la disposición a una columna
+        flex-direction: column;
+    }
+
+    .btn {
+        margin: 5px;
     }
   }

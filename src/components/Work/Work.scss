@@ -9,7 +9,8 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 40px;
-  padding-bottom: 5rem;
+  padding: 5rem 0 5rem 0;
+  justify-items: center; 
 
   @media screen and (max-width: 740px) {
     max-width: 90%;
@@ -21,6 +22,11 @@
 .project-card {
   background-color: #1a1919;
   padding: 1.3rem 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; 
+  align-items: center; 
+  height: 100%; 
 
   img {
     width: 100%;

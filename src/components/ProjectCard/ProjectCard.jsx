@@ -4,7 +4,7 @@ import "./ProjectCard.scss";
 const ProjectCard = (props) => {
   return (
     <div className="project-card">
-      <img src={props.imgSrc} alt="delifood" />
+      <img className="project-img" src={props.imgSrc} alt="delifood" />
       <div className="logos">
         {props.logos.map((logo, index) => (
           <img src={logo} alt={`logo-${index}`} key={index} />

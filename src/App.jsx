@@ -6,6 +6,7 @@ import Projects from "./routes/Projects";
 import Contact from "./routes/Contact";
 
 import { Routes, Route } from "react-router-dom";
+import Submit from "./routes/Submit";
 
 function App() {
   return (
@@ -14,7 +15,8 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/projects" element={<Projects />} />
-        <Route path="/Contact" element={<Contact />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/submitted" element={<Submit />} />
       </Routes>
     </>
   );

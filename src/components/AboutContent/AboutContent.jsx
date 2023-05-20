@@ -3,6 +3,7 @@ import "./AboutContent.scss";
 import profile from "../../assets/perfil.JPG";
 
 import React from "react";
+import { FaLinkedin } from "react-icons/fa";
 
 export const AboutContent = () => {
   return (
@@ -24,9 +25,19 @@ export const AboutContent = () => {
           already had. In this portfolio you can see the personal projects I've
           worked on, and you can contact me if you are interested.{" "}
         </p>
-        <Link to="/contact">
-          <button className="btn">Contact</button>
-        </Link>
+        <div className="contactbtns">
+          <Link to="/contact">
+            <button className="btn contact-btn">Contact</button>
+          </Link>
+          <a
+            href="https://www.linkedin.com/in/francisco-valiente-fulllstack-developer"
+            target="_blank"
+            rel="noreferrer"
+            className="inbtn"
+          >
+            <FaLinkedin size="100%" />
+          </a>
+        </div>
       </div>
     </div>
   );

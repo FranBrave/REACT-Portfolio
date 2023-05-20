@@ -1,0 +1,27 @@
+.submit-page-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+  }
+
+  h2 {
+    color: #fff;
+  }
+  
+  .submit-page-container h1,
+  .submit-page-container h2,
+  .submit-page-container .contact-btn {
+    margin-bottom: 20px; // Ajusta este valor según lo que necesites
+  }
+
+  img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .btn {
+    margin-top: 3rem
+  }

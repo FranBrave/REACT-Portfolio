@@ -9,33 +9,36 @@ const Footer = () => {
         <div className="left">
           <div className="location">
             <p>
-              {" "}
               <FaHome
                 size={20}
                 style={{ color: "#fff", marginRight: "1rem" }}
-              />{" "}
+              />
               Located in Menorca, Spain
             </p>
           </div>
           <div className="phone">
             <p>
-              {" "}
               <FaPhone
                 size={20}
                 style={{ color: "#fff", marginRight: "1rem" }}
-              />{" "}
+              />
               +34 667 943 153
             </p>
           </div>
 
           <div className="mail">
             <p>
-              {" "}
-              <FaMailBulk
-                size={20}
-                style={{ color: "#fff", marginRight: "1rem" }}
-              />{" "}
-              valiente.fco@gmail.com
+              <a
+                href="mailto:valiente.fco@gmail.com"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FaMailBulk
+                  size={20}
+                  style={{ color: "#fff", marginRight: "1rem" }}
+                />
+                valiente.fco@gmail.com
+              </a>
             </p>
           </div>
         </div>
@@ -48,10 +51,16 @@ const Footer = () => {
             myself.
           </p>
           <div className="social">
-            <FaLinkedin
-              size={30}
-              style={{ color: "#fff", marginRight: "1rem" }}
-            />
+            <a
+              href="https://www.linkedin.com/in/francisco-valiente-fulllstack-developer"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FaLinkedin
+                size={30}
+                style={{ color: "#fff", marginRight: "1rem" }}
+              />
+            </a>
           </div>
         </div>
       </div>

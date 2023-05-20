@@ -48,3 +48,35 @@
     grid-column: 1 / span 8;
     grid-row: 1;
 }
+
+.contactbtns {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    height: 50px; 
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+  
+.btn.contact-btn {
+    width: 120px;
+    margin-right: 10px; // separación de 10px entre los botones
+}
+  
+.inbtn {
+    border-radius: 5px;
+    width: 50px; 
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:  rgb(248, 217, 15);
+
+    &:hover {
+        background-color: #fff;
+        transition: 0.3s;
+    }
+}
