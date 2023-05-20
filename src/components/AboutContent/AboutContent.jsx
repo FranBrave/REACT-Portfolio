@@ -43,17 +43,17 @@ export const AboutContent = () => {
             href="mailto:valiente.fco@gmail.com"
             target="_blank"
             rel="noreferrer"
-            className="inbtn"
+            className="btn"
           >
-            <TfiEmail size="100%" />
+            <TfiEmail size={40} />
           </a>
           <a
             href="https://www.linkedin.com/in/francisco-valiente-fulllstack-developer"
             target="_blank"
             rel="noreferrer"
-            className="inbtn"
+            className="btn"
           >
-            <FaLinkedin size="100%" />
+            <FaLinkedin size={40} />
           </a>
         </div>
       </div>

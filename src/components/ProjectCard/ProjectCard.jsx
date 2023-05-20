@@ -1,5 +1,7 @@
 import React from "react";
 import "./ProjectCard.scss";
+import { AiFillGithub } from "react-icons/ai";
+import { TbWorldWww } from "react-icons/tb";
 
 const ProjectCard = (props) => {
   return (
@@ -15,10 +17,10 @@ const ProjectCard = (props) => {
         <p>{props.text}</p>
         <div className="project-btns">
           <a href={props.github} className="btn">
-            GitHub
+            <AiFillGithub size={40}></AiFillGithub>
           </a>
           <a href={props.url} className="btn">
-            Source
+            <TbWorldWww size={40}></TbWorldWww>
           </a>
         </div>
       </div>
