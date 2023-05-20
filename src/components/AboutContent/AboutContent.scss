@@ -64,5 +64,26 @@
 }
   
 .btn.contact-btn {
-    width: 120px;
+    width: 200px;
 }
+
+.contactbtns {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .contactbtns .btn {
+    margin: 0.5rem 1rem 1rem 1rem;
+    width: 200px;
+  }
+
+  @media screen and (max-width: 600px) {
+    .contactbtns {
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .contactbtns .btn {
+      margin: 0.5rem 0 1rem 0;
+    }
+  }
