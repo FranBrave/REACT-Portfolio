@@ -25,7 +25,11 @@ const ContactForm = () => {
         <button className="btn" type="submit">
           Submit
         </button>
-        <input type="hidden" name="_next" value="http://localhost:3000/" />
+        <input
+          type="hidden"
+          name="_next"
+          value="http://www.franvaliente.com/"
+        />
         <input type="hidden" name="_captcha" value="false" />
       </form>
     </div>
