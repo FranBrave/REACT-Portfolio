@@ -13,7 +13,7 @@ const Footer = () => {
                 size={20}
                 style={{ color: "#fff", marginRight: "1rem" }}
               />
-              Located in Menorca, Spain
+              Menorca, Spain
             </p>
           </div>
           <div className="phone">

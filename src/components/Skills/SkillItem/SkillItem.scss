@@ -5,4 +5,11 @@
     padding: 10px;
     background-color: #9e98983a;
     border-radius: 2px;
-}   
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+    user-select: none;
+}
+
+.skill-item:hover {
+    transform: scale(1.10);
+}

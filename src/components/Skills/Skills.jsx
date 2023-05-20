@@ -20,7 +20,7 @@ export const Skills = () => {
     "Postman",
     "GitHub",
     "GitLab",
-    "Scrum",
+    "SCRUM",
     "Docker",
   ];
 

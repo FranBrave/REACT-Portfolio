@@ -10,16 +10,17 @@
 
 .about .left {
     text-align: center;
-    margin: 0 15rem 0 15rem;
+    margin: 1rem;
     padding: 1rem;
-    max-width: 350px;
+    max-width: 600px;
 }
 
 @media (max-width: 768px) {
     .about .left {
-      margin: auto;
+        margin: auto;
+        max-width: 80%;
     }
-  }
+}
 
 .about .left p {
     margin: 1.2rem 0;
@@ -51,7 +52,8 @@
 
 .contactbtns {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    padding-top: 30px;
 }
 
 .btn {
@@ -63,7 +65,6 @@
   
 .btn.contact-btn {
     width: 120px;
-    margin-right: 10px; // separación de 10px entre los botones
 }
   
 .inbtn {
@@ -74,6 +75,7 @@
     align-items: center;
     justify-content: center;
     color:  rgb(248, 217, 15);
+
 
     &:hover {
         background-color: #fff;
