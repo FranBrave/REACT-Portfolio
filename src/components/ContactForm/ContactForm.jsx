@@ -1,6 +1,8 @@
+import { TfiEmail } from "react-icons/tfi";
 import "./ContactForm.scss";
 
 import React from "react";
+import { FaLinkedin } from "react-icons/fa";
 
 const ContactForm = () => {
   return (
@@ -32,6 +34,25 @@ const ContactForm = () => {
         />
         <input type="hidden" name="_captcha" value="false" />
       </form>
+      <h2>Other contact methods</h2>
+      <div className="buttons">
+        <a
+          href="mailto:valiente.fco@gmail.com"
+          target="_blank"
+          rel="noreferrer"
+          className="btn"
+        >
+          <TfiEmail size={40} />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/francisco-valiente-fulllstack-developer"
+          target="_blank"
+          rel="noreferrer"
+          className="btn"
+        >
+          <FaLinkedin size={40} />
+        </a>
+      </div>
     </div>
   );
 };

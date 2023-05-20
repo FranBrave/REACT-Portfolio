@@ -25,10 +25,13 @@ export const Skills = () => {
   ];
 
   return (
-    <div className="skills">
-      <SkillBlock icon={frontend} title="Frontend" skills={frontendSkills} />
-      <SkillBlock icon={backend} title="Backend" skills={backendSkills} />
-      <SkillBlock icon={tools} title="Tools" skills={toolSkills} />
-    </div>
+    <>
+      <h1>Hard Skills</h1>
+      <div className="skills">
+        <SkillBlock icon={frontend} title="Frontend" skills={frontendSkills} />
+        <SkillBlock icon={backend} title="Backend" skills={backendSkills} />
+        <SkillBlock icon={tools} title="Tools" skills={toolSkills} />
+      </div>
+    </>
   );
 };

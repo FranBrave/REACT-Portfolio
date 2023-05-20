@@ -1,6 +1,5 @@
 import React from "react";
 import { SkillItem } from "../SkillItem/SkillItem";
-import "./SkillBlock.scss";
 
 const SkillBlock = (props) => {
   return (

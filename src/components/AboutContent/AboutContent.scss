@@ -66,19 +66,3 @@
 .btn.contact-btn {
     width: 120px;
 }
-  
-.inbtn {
-    border-radius: 5px;
-    width: 50px; 
-    height: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color:  rgb(248, 217, 15);
-
-
-    &:hover {
-        background-color: #fff;
-        transition: 0.3s;
-    }
-}
