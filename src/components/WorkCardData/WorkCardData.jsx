@@ -11,8 +11,8 @@ const ProjectCardData = [
     imgSrc: pro1,
     title: "Delivery, delicious, Deli Food!",
     text: "Home delivery food App: Cart, PayPal payment option, order tracking, registration form and login/logout.",
-    github: "https://github.com/FranBrave/ANGULAR-NODEJS-DeliFood",
-    url: "url.com",
+    github: "https://github.com/FranBrave/ANGULAR-NODE-DeliFood",
+    url: "https://delifood.onrender.com/",
     logos: [angular, node, sass],
   },
   {
