@@ -1,10 +1,12 @@
 import pro1 from "../../assets/pro1.png";
 import pro2 from "../../assets/pro2.png";
+import pro3 from "../../assets/pro3.png";
 import angular from "../../assets/angular.png";
 import node from "../../assets/node.png";
 import sass from "../../assets/sass.png";
 import materialui from "../../assets/material.png";
 import react from "../../assets/React.png";
+import ionic from "../../assets/ionic.svg";
 
 const ProjectCardData = [
   {
@@ -22,6 +24,14 @@ const ProjectCardData = [
     github: "https://github.com/FranBrave/REACT-FitnessApp",
     url: "https://valiente-fitness-app.netlify.app/",
     logos: [react, materialui],
+  },
+  {
+    imgSrc: pro3,
+    title: "SmartChat",
+    text: "A ChatGPT-based chatbot where you can resolve all your doubts. The language model is Davinci, and being built in Ionic makes it very optimal for use on mobile. ",
+    github: "https://github.com/FranBrave/IONIC-NODE-SmartChat",
+    url: "https://ionic-smart-chat.vercel.app/",
+    logos: [ionic, node],
   },
 ];
 
