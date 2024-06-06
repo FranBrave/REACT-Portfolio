@@ -30,7 +30,7 @@ const ProjectCardData = [
     title: "SmartChat",
     text: "A ChatGPT-based chatbot where you can resolve all your doubts. The language model is Davinci, and being built in Ionic makes it very optimal for use on mobile. ",
     github: "https://github.com/FranBrave/IONIC-NODE-SmartChat",
-    url: "https://ionic-smart-chat.vercel.app/",
+    url: "https://ionic-node-smart-chat-plvsfae34-frans-projects-8071aebe.vercel.app/home",
     logos: [ionic, node],
   },
 ];
